@@ -1,0 +1,25 @@
+From 80b258ffbf8efaea2bd6952e31a23e4df2c32f43 Mon Sep 17 00:00:00 2001
+From: Phil Martin <phil.martin@mipltd.com>
+Date: Mon, 9 Nov 2015 12:42:39 -0800
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 23f8f6b..44458c2 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -684,7 +684,7 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: MX6-Merlin\n");
+ 	return 0;
+ }
+ 
+-- 
+1.9.1
+
